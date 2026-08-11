@@ -1,6 +1,6 @@
 {
   "name": "bank-of-mongolia-exchange-rate",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "Official Bank of Mongolia (Mongolia) daily exchange rates — 38 currencies vs MNT, history since 2026. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "bom",
