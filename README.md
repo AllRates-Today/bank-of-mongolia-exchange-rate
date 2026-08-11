@@ -1,10 +1,10 @@
 # Bank of Mongolia Exchange Rate API client
 
-Official **Bank of Mongolia** (Mongolia) daily exchange rates in Node.js / TypeScript — ~38 currencies against the MNT, with history back to 2026. Zero dependencies, works in Node 18+, Bun, Deno, and edge runtimes (uses global `fetch`).
+Official **Bank of Mongolia** (Mongolia) daily exchange rates in Node.js / TypeScript — 38 currencies against the MNT, with history back to 2026. Zero dependencies, works in Node 18+, Bun, Deno, and edge runtimes (uses global `fetch`).
 
 These are the *published central bank rates* required for tax filings, customs valuations, audits, and compliant invoicing — not moving market rates. Every response carries the publisher's own publication date.
 
-Powered by [AllRatesToday](https://allratestoday.com/central-bank-rates-api/bom/). Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — 300 requests/month, no credit card.
+Powered by [AllRatesToday](https://allratestoday.com/central-bank-rates-api/bom/). Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required.
 
 ## Install
 
@@ -41,6 +41,14 @@ const series = await getHistory(
   { apiKey: 'art_live_...' }
 );
 ```
+
+## Currencies covered
+
+Bank of Mongolia currently publishes rates covering **39 currencies** (as of the latest table):
+
+`AED` · `AUD` · `BGN` · `CAD` · `CHF` · `CNY` · `CZK` · `DKK` · `EGP` · `EUR` · `GBP` · `HKD` · `HUF` · `IDR` · `INR` · `JPY` · `KPW` · `KRW` · `KWD` · `KZT` · `MNT` · `MYR` · `NOK` · `NPR` · `NZD` · `PLN` · `RUB` · `SEK` · `SGD` · `THB` · `TRY` · `TWD` · `UAH` · `USD` · `VND` · `XAG` · `XAU` · `XDR` · `ZAR`
+
+Pairs the central bank does not print directly are resolved from this table (see below).
 
 ## Published vs derived rates
 
