@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/bank-of-mongolia-exchange-rate.svg)](https://github.com/AllRates-Today/bank-of-mongolia-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/bank-of-mongolia-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/MNT today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fbom%3Fsource%3DUSD%26target%3DMNT&query=%24.rate&label=USD%2FMNT%20published%20by%20Bank%20of%20Mongolia&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/bom/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fbom%3Fsource%3DUSD%26target%3DMNT&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/bom/)
 
 **Official Bank of Mongolia (Mongolia) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Bank of Mongolia itself prints, every business day.**
 
@@ -32,6 +34,57 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Bank of Mongolia table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-08** by Bank of Mongolia — 38 rates. Updated 2026-10-08.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AED | MNT | reference | 979.04 |
+| AUD | MNT | reference | 2499.92 |
+| BGN | MNT | reference | 2159.59 |
+| CAD | MNT | reference | 2523.84 |
+| CHF | MNT | reference | 4315.54 |
+| CNY | MNT | reference | 536.46 |
+| CZK | MNT | reference | 164.88 |
+| DKK | MNT | reference | 538.58 |
+| EGP | MNT | reference | 68.66 |
+| EUR | MNT | reference | 4025.22 |
+| GBP | MNT | reference | 4746.88 |
+| HKD | MNT | reference | 458.2 |
+| HUF | MNT | reference | 10.98 |
+| IDR | MNT | reference | 0.2 |
+| INR | MNT | reference | 37.16 |
+| JPY | MNT | reference | 22.73 |
+| KPW | MNT | reference | 27.66 |
+| KRW | MNT | reference | 2.68 |
+| KWD | MNT | reference | 11668.7 |
+| KZT | MNT | reference | 8.02 |
+| MYR | MNT | reference | 879.15 |
+| NOK | MNT | reference | 376.02 |
+| NPR | MNT | reference | 23.22 |
+| NZD | MNT | reference | 2011.44 |
+| PLN | MNT | reference | 918.51 |
+| RUB | MNT | reference | 41.98 |
+| SEK | MNT | reference | 359.38 |
+| SGD | MNT | reference | 2806.41 |
+| THB | MNT | reference | 106.84 |
+| TRY | MNT | reference | 73.06 |
+| TWD | MNT | reference | 112.56 |
+| UAH | MNT | reference | 80.2 |
+| USD | MNT | reference | 3595.71 |
+| VND | MNT | reference | 0.14 |
+| XAG | MNT | reference | 211296.15 |
+| XAU | MNT | reference | 14815314.02 |
+| XDR | MNT | reference | 4862.1 |
+| ZAR | MNT | reference | 215.55 |
+
+Source: [Official rates published by BOM, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bom/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
