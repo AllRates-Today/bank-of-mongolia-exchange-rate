@@ -42,48 +42,48 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-14** by Bank of Mongolia — 38 rates. Updated 2026-10-14.
+Published **2026-10-15** by Bank of Mongolia — 38 rates. Updated 2026-10-15.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | MNT | reference | 979.11 |
-| AUD | MNT | reference | 2519.71 |
-| BGN | MNT | reference | 2159.75 |
-| CAD | MNT | reference | 2529.98 |
-| CHF | MNT | reference | 4317.17 |
-| CNY | MNT | reference | 537.28 |
-| CZK | MNT | reference | 165.29 |
-| DKK | MNT | reference | 538.77 |
-| EGP | MNT | reference | 67.75 |
-| EUR | MNT | reference | 4027.33 |
-| GBP | MNT | reference | 4768.82 |
-| HKD | MNT | reference | 458.21 |
+| AED | MNT | reference | 979.12 |
+| AUD | MNT | reference | 2493.47 |
+| BGN | MNT | reference | 2159.77 |
+| CAD | MNT | reference | 2530.53 |
+| CHF | MNT | reference | 4332.28 |
+| CNY | MNT | reference | 537.38 |
+| CZK | MNT | reference | 165.54 |
+| DKK | MNT | reference | 539.3 |
+| EGP | MNT | reference | 67.43 |
+| EUR | MNT | reference | 4031.31 |
+| GBP | MNT | reference | 4762.38 |
+| HKD | MNT | reference | 458.25 |
 | HUF | MNT | reference | 11.07 |
 | IDR | MNT | reference | 0.2 |
-| INR | MNT | reference | 37.83 |
-| JPY | MNT | reference | 22.71 |
+| INR | MNT | reference | 37.85 |
+| JPY | MNT | reference | 22.78 |
 | KPW | MNT | reference | 27.66 |
-| KRW | MNT | reference | 2.69 |
-| KWD | MNT | reference | 11669.61 |
-| KZT | MNT | reference | 8 |
-| MYR | MNT | reference | 881.1 |
-| NOK | MNT | reference | 378.58 |
-| NPR | MNT | reference | 23.64 |
-| NZD | MNT | reference | 2021.13 |
-| PLN | MNT | reference | 921.09 |
-| RUB | MNT | reference | 42.83 |
-| SEK | MNT | reference | 361.1 |
-| SGD | MNT | reference | 2806.41 |
-| THB | MNT | reference | 107.09 |
-| TRY | MNT | reference | 72.81 |
-| TWD | MNT | reference | 111.8 |
-| UAH | MNT | reference | 79.86 |
-| USD | MNT | reference | 3595.99 |
+| KRW | MNT | reference | 2.68 |
+| KWD | MNT | reference | 11669.67 |
+| KZT | MNT | reference | 7.94 |
+| MYR | MNT | reference | 881.38 |
+| NOK | MNT | reference | 377.69 |
+| NPR | MNT | reference | 23.66 |
+| NZD | MNT | reference | 2017.54 |
+| PLN | MNT | reference | 922.66 |
+| RUB | MNT | reference | 42.99 |
+| SEK | MNT | reference | 360.42 |
+| SGD | MNT | reference | 2803.58 |
+| THB | MNT | reference | 107.31 |
+| TRY | MNT | reference | 72.77 |
+| TWD | MNT | reference | 110.95 |
+| UAH | MNT | reference | 80.02 |
+| USD | MNT | reference | 3596.01 |
 | VND | MNT | reference | 0.14 |
-| XAG | MNT | reference | 211025.28 |
-| XAU | MNT | reference | 14921524.55 |
-| XDR | MNT | reference | 4864.01 |
-| ZAR | MNT | reference | 218.05 |
+| XAG | MNT | reference | 203272.38 |
+| XAU | MNT | reference | 14909003.52 |
+| XDR | MNT | reference | 4864.81 |
+| ZAR | MNT | reference | 217.35 |
 
 Source: [Official rates published by BOM, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bom/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
