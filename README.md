@@ -33,57 +33,60 @@ const r = await fetch('https://allratestoday.com/api/open/central-bank/bom').the
 console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
 ```
 
-The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables and history.
 
 ## 📈 Latest published table
 
 [![Latest Bank of Mongolia table](https://allratestoday.com/api/open/central-bank/bom/table.svg)](https://allratestoday.com/central-bank-rates-api/bom/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-16** by Bank of Mongolia — 38 rates. Updated 2026-10-16.
+<details>
+<summary>Table as text: published 2026-10-19 by Bank of Mongolia — 38 rates. Updated 2026-10-19.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | MNT | reference | 979.22 |
-| AUD | MNT | reference | 2503.02 |
-| BGN | MNT | reference | 2159.94 |
-| CAD | MNT | reference | 2538.77 |
-| CHF | MNT | reference | 4360.74 |
-| CNY | MNT | reference | 537.81 |
-| CZK | MNT | reference | 166.04 |
-| DKK | MNT | reference | 540.71 |
-| EGP | MNT | reference | 67.28 |
-| EUR | MNT | reference | 4041.88 |
-| GBP | MNT | reference | 4787.21 |
+| AED | MNT | reference | 979.13 |
+| AUD | MNT | reference | 2506.69 |
+| BGN | MNT | reference | 2160 |
+| CAD | MNT | reference | 2550.64 |
+| CHF | MNT | reference | 4359.54 |
+| CNY | MNT | reference | 538.22 |
+| CZK | MNT | reference | 165.4 |
+| DKK | MNT | reference | 538.32 |
+| EGP | MNT | reference | 67.17 |
+| EUR | MNT | reference | 4023.83 |
+| GBP | MNT | reference | 4785.91 |
 | HKD | MNT | reference | 458.26 |
-| HUF | MNT | reference | 11.12 |
+| HUF | MNT | reference | 11.09 |
 | IDR | MNT | reference | 0.2 |
-| INR | MNT | reference | 37.87 |
-| JPY | MNT | reference | 22.76 |
+| INR | MNT | reference | 37.88 |
+| JPY | MNT | reference | 22.74 |
 | KPW | MNT | reference | 27.66 |
 | KRW | MNT | reference | 2.7 |
-| KWD | MNT | reference | 11670.61 |
-| KZT | MNT | reference | 7.95 |
-| MYR | MNT | reference | 881.12 |
-| NOK | MNT | reference | 380.66 |
+| KWD | MNT | reference | 11676.62 |
+| KZT | MNT | reference | 7.94 |
+| MYR | MNT | reference | 881.04 |
+| NOK | MNT | reference | 381.03 |
 | NPR | MNT | reference | 23.67 |
-| NZD | MNT | reference | 2037.48 |
-| PLN | MNT | reference | 924.93 |
-| RUB | MNT | reference | 42.94 |
-| SEK | MNT | reference | 362.86 |
-| SGD | MNT | reference | 2809.94 |
-| THB | MNT | reference | 107.66 |
-| TRY | MNT | reference | 72.62 |
-| TWD | MNT | reference | 111.02 |
-| UAH | MNT | reference | 80.17 |
-| USD | MNT | reference | 3596.3 |
+| NZD | MNT | reference | 2032.87 |
+| PLN | MNT | reference | 920.37 |
+| RUB | MNT | reference | 43.32 |
+| SEK | MNT | reference | 361.82 |
+| SGD | MNT | reference | 2809.8 |
+| THB | MNT | reference | 107.05 |
+| TRY | MNT | reference | 72.64 |
+| TWD | MNT | reference | 110.65 |
+| UAH | MNT | reference | 79.92 |
+| USD | MNT | reference | 3596.4 |
 | VND | MNT | reference | 0.14 |
-| XAG | MNT | reference | 207653.6 |
-| XAU | MNT | reference | 15058391.4 |
-| XDR | MNT | reference | 4869.39 |
-| ZAR | MNT | reference | 218.66 |
+| XAG | MNT | reference | 206322.95 |
+| XAU | MNT | reference | 15007957.02 |
+| XDR | MNT | reference | 4878.38 |
+| ZAR | MNT | reference | 218.07 |
+
+</details>
 
 Source: [Official rates published by BOM, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bom/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -357,7 +360,8 @@ Need the whole archive rather than an API call? The same published tables are mi
 - [All central bank sources](https://allratestoday.com/central-bank-rates-api/)
 - [Package docs on the site](https://allratestoday.com/docs/sdk/bank-of-mongolia-exchange-rate/) · [ERP integration guides](https://allratestoday.com/docs/integrations/)
 - [API documentation](https://allratestoday.com/docs/#central-bank) · [Interactive reference](https://allratestoday.com/api-reference/) · [Methodology](https://allratestoday.com/official-rates-methodology/)
-- [Register (free)](https://allratestoday.com/register) · [Pricing](https://allratestoday.com/pricing/)
+- [Register (Free)](https://allratestoday.com/register) · [Dashboard](https://allratestoday.com/profile) · [Pricing](https://allratestoday.com/pricing/)
+- [Status](https://allratestoday.com/status)
 - [GitHub](https://github.com/AllRates-Today/bank-of-mongolia-exchange-rate)
 
 ## 📜 License
