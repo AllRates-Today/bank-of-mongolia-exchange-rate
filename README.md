@@ -47,48 +47,48 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-26 by Bank of Mongolia — 38 rates. Updated 2026-10-26.</summary>
+<summary>Table as text: published 2026-10-27 by Bank of Mongolia — 38 rates. Updated 2026-10-27.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | MNT | reference | 979.58 |
-| AUD | MNT | reference | 2527.67 |
-| BGN | MNT | reference | 2160.71 |
-| CAD | MNT | reference | 2566.22 |
-| CHF | MNT | reference | 4360.72 |
-| CNY | MNT | reference | 539.5 |
-| CZK | MNT | reference | 165.5 |
-| DKK | MNT | reference | 539.32 |
-| EGP | MNT | reference | 64.43 |
-| EUR | MNT | reference | 4031.1 |
-| GBP | MNT | reference | 4805.84 |
-| HKD | MNT | reference | 458.6 |
-| HUF | MNT | reference | 10.97 |
+| AED | MNT | reference | 979.86 |
+| AUD | MNT | reference | 2525.24 |
+| BGN | MNT | reference | 2161.41 |
+| CAD | MNT | reference | 2566.41 |
+| CHF | MNT | reference | 4347.37 |
+| CNY | MNT | reference | 539.68 |
+| CZK | MNT | reference | 164.96 |
+| DKK | MNT | reference | 537.35 |
+| EGP | MNT | reference | 64.02 |
+| EUR | MNT | reference | 4016.56 |
+| GBP | MNT | reference | 4795.15 |
+| HKD | MNT | reference | 458.77 |
+| HUF | MNT | reference | 10.93 |
 | IDR | MNT | reference | 0.2 |
-| INR | MNT | reference | 37.78 |
-| JPY | MNT | reference | 22.89 |
-| KPW | MNT | reference | 27.67 |
-| KRW | MNT | reference | 2.72 |
-| KWD | MNT | reference | 11680.49 |
-| KZT | MNT | reference | 7.96 |
-| MYR | MNT | reference | 880.47 |
-| NOK | MNT | reference | 385.64 |
-| NPR | MNT | reference | 23.61 |
-| NZD | MNT | reference | 2046.67 |
-| PLN | MNT | reference | 914.96 |
-| RUB | MNT | reference | 44.47 |
-| SEK | MNT | reference | 361.85 |
-| SGD | MNT | reference | 2812.05 |
-| THB | MNT | reference | 106.36 |
-| TRY | MNT | reference | 72.3 |
-| TWD | MNT | reference | 110.41 |
-| UAH | MNT | reference | 79.33 |
-| USD | MNT | reference | 3597.59 |
+| INR | MNT | reference | 37.82 |
+| JPY | MNT | reference | 22.8 |
+| KPW | MNT | reference | 27.68 |
+| KRW | MNT | reference | 2.71 |
+| KWD | MNT | reference | 11678.57 |
+| KZT | MNT | reference | 7.93 |
+| MYR | MNT | reference | 880.54 |
+| NOK | MNT | reference | 386.53 |
+| NPR | MNT | reference | 23.63 |
+| NZD | MNT | reference | 2047.51 |
+| PLN | MNT | reference | 911.77 |
+| RUB | MNT | reference | 44.67 |
+| SEK | MNT | reference | 361.41 |
+| SGD | MNT | reference | 2808.12 |
+| THB | MNT | reference | 106.58 |
+| TRY | MNT | reference | 72.28 |
+| TWD | MNT | reference | 110.78 |
+| UAH | MNT | reference | 78.87 |
+| USD | MNT | reference | 3598.75 |
 | VND | MNT | reference | 0.14 |
-| XAG | MNT | reference | 194299 |
-| XAU | MNT | reference | 14425616.38 |
-| XDR | MNT | reference | 4876.08 |
-| ZAR | MNT | reference | 216.39 |
+| XAG | MNT | reference | 189996.01 |
+| XAU | MNT | reference | 14388450.28 |
+| XDR | MNT | reference | 4875.64 |
+| ZAR | MNT | reference | 215.85 |
 
 </details>
 
