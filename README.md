@@ -47,48 +47,48 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by Bank of Mongolia — 38 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-29 by Bank of Mongolia — 38 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | MNT | reference | 979.89 |
-| AUD | MNT | reference | 2531.91 |
-| BGN | MNT | reference | 2161.42 |
-| CAD | MNT | reference | 2559.94 |
-| CHF | MNT | reference | 4335.86 |
-| CNY | MNT | reference | 539.79 |
-| CZK | MNT | reference | 164.43 |
-| DKK | MNT | reference | 535.5 |
-| EGP | MNT | reference | 64.03 |
-| EUR | MNT | reference | 4002.72 |
-| GBP | MNT | reference | 4782.57 |
-| HKD | MNT | reference | 458.74 |
-| HUF | MNT | reference | 10.91 |
+| AED | MNT | reference | 979.95 |
+| AUD | MNT | reference | 2535.01 |
+| BGN | MNT | reference | 2161.61 |
+| CAD | MNT | reference | 2572.33 |
+| CHF | MNT | reference | 4345.67 |
+| CNY | MNT | reference | 540.29 |
+| CZK | MNT | reference | 164.68 |
+| DKK | MNT | reference | 536.66 |
+| EGP | MNT | reference | 64.27 |
+| EUR | MNT | reference | 4010.63 |
+| GBP | MNT | reference | 4795.77 |
+| HKD | MNT | reference | 458.71 |
+| HUF | MNT | reference | 10.93 |
 | IDR | MNT | reference | 0.2 |
-| INR | MNT | reference | 37.8 |
-| JPY | MNT | reference | 22.81 |
-| KPW | MNT | reference | 27.68 |
-| KRW | MNT | reference | 2.69 |
-| KWD | MNT | reference | 11671.02 |
-| KZT | MNT | reference | 7.89 |
-| MYR | MNT | reference | 882.37 |
-| NOK | MNT | reference | 385.69 |
-| NPR | MNT | reference | 23.62 |
-| NZD | MNT | reference | 2019.62 |
-| PLN | MNT | reference | 908.79 |
-| RUB | MNT | reference | 44.69 |
-| SEK | MNT | reference | 361.61 |
-| SGD | MNT | reference | 2807.15 |
-| THB | MNT | reference | 106.52 |
+| INR | MNT | reference | 37.76 |
+| JPY | MNT | reference | 22.8 |
+| KPW | MNT | reference | 27.69 |
+| KRW | MNT | reference | 2.7 |
+| KWD | MNT | reference | 11675.85 |
+| KZT | MNT | reference | 7.92 |
+| MYR | MNT | reference | 886.25 |
+| NOK | MNT | reference | 388.16 |
+| NPR | MNT | reference | 23.6 |
+| NZD | MNT | reference | 2022.68 |
+| PLN | MNT | reference | 911.32 |
+| RUB | MNT | reference | 44.62 |
+| SEK | MNT | reference | 362.9 |
+| SGD | MNT | reference | 2809.92 |
+| THB | MNT | reference | 106.59 |
 | TRY | MNT | reference | 72.22 |
-| TWD | MNT | reference | 110.99 |
-| UAH | MNT | reference | 78.87 |
-| USD | MNT | reference | 3598.76 |
+| TWD | MNT | reference | 110.59 |
+| UAH | MNT | reference | 78.97 |
+| USD | MNT | reference | 3599.08 |
 | VND | MNT | reference | 0.14 |
-| XAG | MNT | reference | 194315.05 |
-| XAU | MNT | reference | 14555706.64 |
-| XDR | MNT | reference | 4867.75 |
-| ZAR | MNT | reference | 216.07 |
+| XAG | MNT | reference | 189522.15 |
+| XAU | MNT | reference | 14478594.97 |
+| XDR | MNT | reference | 4865.15 |
+| ZAR | MNT | reference | 216.11 |
 
 </details>
 
@@ -253,6 +253,7 @@ The Bank of Mongolia publishes official tögrög rates for about 38 currencies e
 
 - Publisher's own page: [Official MNT rates](https://www.mongolbank.mn/en/currency-rates) · [www.mongolbank.mn/en](https://www.mongolbank.mn/en)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [Bank of Mongolia rates page](https://allratestoday.com/central-bank-rates-api/bom/)
+- In the API: usually by **10:15 UTC** (measured over the last 14 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
