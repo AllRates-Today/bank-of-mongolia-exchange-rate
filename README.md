@@ -24,71 +24,56 @@
 
 Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
 
-## ⚡ Try it without a key
-
-The latest Bank of Mongolia table is also served keyless, CORS-open and edge-cached, for evaluation, embeds and AI agents:
-
-```bash
-curl "https://allratestoday.com/api/open/central-bank/bom?source=USD&target=MNT"
-```
-
-```js
-const r = await fetch('https://allratestoday.com/api/open/central-bank/bom').then((x) => x.json());
-console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
-```
-
-The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and is free to use with a visible, followable link where the rates are shown: `<a href="https://allratestoday.com">Exchange rates by AllRatesToday</a>` (terms: <https://allratestoday.com/terms/#attribution>). The client below uses the keyed API, which adds point-in-time tables and history; with a key the link is appreciated, not required.
-
 ## 📈 Latest published table
 
 [![Latest Bank of Mongolia table](https://allratestoday.com/api/open/central-bank/bom/table.svg)](https://allratestoday.com/central-bank-rates-api/bom/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-29 by Bank of Mongolia — 38 rates. Updated 2026-10-29.</summary>
+<summary>Table as text: published 2026-10-30 by Bank of Mongolia — 38 rates. Updated 2026-10-30.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | MNT | reference | 979.95 |
-| AUD | MNT | reference | 2535.01 |
-| BGN | MNT | reference | 2161.61 |
-| CAD | MNT | reference | 2572.33 |
-| CHF | MNT | reference | 4345.67 |
-| CNY | MNT | reference | 540.29 |
-| CZK | MNT | reference | 164.68 |
-| DKK | MNT | reference | 536.66 |
+| AED | MNT | reference | 980.04 |
+| AUD | MNT | reference | 2527.77 |
+| BGN | MNT | reference | 2161.73 |
+| CAD | MNT | reference | 2576.9 |
+| CHF | MNT | reference | 4378.69 |
+| CNY | MNT | reference | 540.76 |
+| CZK | MNT | reference | 165.5 |
+| DKK | MNT | reference | 538.9 |
 | EGP | MNT | reference | 64.27 |
-| EUR | MNT | reference | 4010.63 |
-| GBP | MNT | reference | 4795.77 |
-| HKD | MNT | reference | 458.71 |
-| HUF | MNT | reference | 10.93 |
+| EUR | MNT | reference | 4027.77 |
+| GBP | MNT | reference | 4824.47 |
+| HKD | MNT | reference | 458.78 |
+| HUF | MNT | reference | 11.01 |
 | IDR | MNT | reference | 0.2 |
-| INR | MNT | reference | 37.76 |
-| JPY | MNT | reference | 22.8 |
+| INR | MNT | reference | 37.86 |
+| JPY | MNT | reference | 22.84 |
 | KPW | MNT | reference | 27.69 |
 | KRW | MNT | reference | 2.7 |
-| KWD | MNT | reference | 11675.85 |
-| KZT | MNT | reference | 7.92 |
-| MYR | MNT | reference | 886.25 |
-| NOK | MNT | reference | 388.16 |
-| NPR | MNT | reference | 23.6 |
-| NZD | MNT | reference | 2022.68 |
-| PLN | MNT | reference | 911.32 |
-| RUB | MNT | reference | 44.62 |
-| SEK | MNT | reference | 362.9 |
-| SGD | MNT | reference | 2809.92 |
-| THB | MNT | reference | 106.59 |
-| TRY | MNT | reference | 72.22 |
-| TWD | MNT | reference | 110.59 |
-| UAH | MNT | reference | 78.97 |
-| USD | MNT | reference | 3599.08 |
+| KWD | MNT | reference | 11676.5 |
+| KZT | MNT | reference | 7.93 |
+| MYR | MNT | reference | 887.51 |
+| NOK | MNT | reference | 390.12 |
+| NPR | MNT | reference | 23.66 |
+| NZD | MNT | reference | 2027.65 |
+| PLN | MNT | reference | 917.91 |
+| RUB | MNT | reference | 44.61 |
+| SEK | MNT | reference | 366.36 |
+| SGD | MNT | reference | 2816.67 |
+| THB | MNT | reference | 106.84 |
+| TRY | MNT | reference | 72.06 |
+| TWD | MNT | reference | 110.34 |
+| UAH | MNT | reference | 79.31 |
+| USD | MNT | reference | 3599.28 |
 | VND | MNT | reference | 0.14 |
-| XAG | MNT | reference | 189522.15 |
-| XAU | MNT | reference | 14478594.97 |
-| XDR | MNT | reference | 4865.15 |
-| ZAR | MNT | reference | 216.11 |
+| XAG | MNT | reference | 182245.58 |
+| XAU | MNT | reference | 14305770.27 |
+| XDR | MNT | reference | 4868.2 |
+| ZAR | MNT | reference | 216.15 |
 
 </details>
 
