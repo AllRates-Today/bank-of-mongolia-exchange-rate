@@ -31,7 +31,53 @@ Get a free API key at [allratestoday.com/register](https://allratestoday.com/reg
 The image is rendered live from the keyless endpoint, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-_The table is filled in by the daily workflow._
+<details>
+<summary>Table as text: published 2026-11-13 by Bank of Mongolia — 38 rates. Updated 2026-11-15.</summary>
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AED | MNT | reference | 981.05 |
+| AUD | MNT | reference | 2447.83 |
+| BGN | MNT | reference | 2164.24 |
+| CAD | MNT | reference | 2527.24 |
+| CHF | MNT | reference | 4312.16 |
+| CNY | MNT | reference | 540.2 |
+| CZK | MNT | reference | 163.36 |
+| DKK | MNT | reference | 533.1 |
+| EGP | MNT | reference | 67.43 |
+| EUR | MNT | reference | 3985.43 |
+| GBP | MNT | reference | 4767.2 |
+| HKD | MNT | reference | 459.32 |
+| HUF | MNT | reference | 10.9 |
+| IDR | MNT | reference | 0.2 |
+| INR | MNT | reference | 38.25 |
+| JPY | MNT | reference | 22.54 |
+| KPW | MNT | reference | 27.72 |
+| KRW | MNT | reference | 2.69 |
+| KWD | MNT | reference | 11676.8 |
+| KZT | MNT | reference | 8.11 |
+| MYR | MNT | reference | 882.23 |
+| NOK | MNT | reference | 377.08 |
+| NPR | MNT | reference | 23.9 |
+| NZD | MNT | reference | 1995.6 |
+| PLN | MNT | reference | 904.71 |
+| RUB | MNT | reference | 43.79 |
+| SEK | MNT | reference | 359.42 |
+| SGD | MNT | reference | 2799.89 |
+| THB | MNT | reference | 106.45 |
+| TRY | MNT | reference | 71.54 |
+| TWD | MNT | reference | 109.61 |
+| UAH | MNT | reference | 79.3 |
+| USD | MNT | reference | 3603.46 |
+| VND | MNT | reference | 0.14 |
+| XAG | MNT | reference | 180263.09 |
+| XAU | MNT | reference | 14044791.64 |
+| XDR | MNT | reference | 4861.97 |
+| ZAR | MNT | reference | 214.64 |
+
+</details>
+
+Source: [Official rates published by BOM, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bom/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
 
 ## 📦 Installation
