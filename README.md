@@ -32,7 +32,7 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-25 by Bank of Mongolia — 38 rates. Updated 2026-11-25.</summary>
+<summary>Table as text: published 2026-11-26 by Bank of Mongolia — 38 rates. Updated 2026-11-26.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
